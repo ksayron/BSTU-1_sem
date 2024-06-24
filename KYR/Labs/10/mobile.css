@@ -1,0 +1,30 @@
+header{border: 2px solid black; margin: 20px 0;}
+section{border: 2px solid black;margin: 10px 0;}
+.container{
+    display: flex;
+    width: 660px;
+    gap: 20px 30px;
+    padding-left: 15px;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.container header{
+    width: 600px;
+    flex-grow: 4;
+    text-align: center;
+    border: 2px solid black;
+}
+.small{
+    width: 145px;
+}
+.big{
+    width: 290px;
+}
+iframe{
+    padding:  15px 5px;
+    width: 140px;
+    height: 85px;
+}
+audio{
+    width: 140px;
+}

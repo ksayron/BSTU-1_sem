@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Текст вдоль произвольной кривой</title>
+</head>
+<body>
+  <svg viewBox="0 0 400 400">
+    <path id="curve" d="M 20,20 C 100,20 200,100 300,20" fill="none" stroke="none" />
+    <text>
+      <textPath href="#curve" startOffset="50%" text-anchor="middle" dominant-baseline="middle" font-size="36" fill="#0000FF">
+        кривой текст свг
+      </textPath>
+    </text>
+  </svg>
+</body>
+</html>

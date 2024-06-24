@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 3</title>
+    <style>
+        #wrap{
+width: 11%; 
+height: 50px; 
+margin: 0;
+z-index: 99; 
+position: relative; 
+
+color: plum;
+}
+.navbar{
+height: 50px;
+padding: 0;
+margin: 0;
+position: absolute; 
+}
+.navbar li {
+height: auto;
+width: 155.8px; 
+float: left;  
+text-align: center; 
+list-style: none;  
+font: normal bold 13px/1em Arial, Verdana, Helvetica;  
+padding: 0;
+margin: 0;
+background-color: yellow;
+border: #444444 1px solid;
+}
+.navbar a{							
+padding: 18px 0;  
+border-left: 1px solid #ccc9c9;
+text-decoration: none; 
+display: block;
+}
+
+.navbar li ul{
+display: none;
+height: auto;									
+margin: 0; 
+padding: 0; 
+}
+
+.navbar li:hover {
+display: block;
+}
+.navbar li ul li{
+    background-color: indianred;
+    
+}
+.navbar li ul li a{
+border-left: 3px dashed #444444; 
+border-right: 3px dashed #444444; 
+border-top: 3px dashed #444444; 
+
+color: black;
+}
+
+.navbar li ul li a:hover{
+background-color: #a3a1a1;
+}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <ul class="navbar">
+          <li><p>Меню</p></li>
+          <li style="width: 200px; height: 40 px;">
+            
+            <ul>
+              <li><a href="task3/reg.html">Форма</a></li>
+              <li><a href="task3/chess.html">Шахматная доска</a></li>
+              <li><a href="task3/bomb.html" style="border-bottom: 3px dashed #444444;">Фотогалерея</a></li>
+            </ul>
+          </li>
+        </ul>
+</body>
+</html>

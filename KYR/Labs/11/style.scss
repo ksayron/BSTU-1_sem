@@ -1,0 +1,125 @@
+
+$back_clr:  rgb(85, 85, 167);
+$back_text:  #f5f5f5;
+$brdr:2px solid black;
+@mixin gap_border(){
+    grid-gap: 20px;
+    border-width: 0px;
+}
+@mixin headline_check($number){
+    @if($number>2){
+        font-size:16px;
+    }
+    @else{
+        font-size:24px
+    }
+}
+body{
+    text-align: center;
+    background-color: $back_clr;
+}
+div{
+    border: $brdr;
+    background-color: $back_text;
+}
+div.page{
+    border: 0px solid black;
+    margin: 20px 0;
+    display: grid;
+    grid-gap: 20px;
+    background-color: $back_clr;
+}
+img.logo{
+    width: 50px;
+    height: 50px;
+
+    margin-left: 20px;
+    border-width: 0px-;
+}
+img{
+    width: 210px;
+    height: 50px;
+    height: 200px;
+    border: 1px solid black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    align-items: center;
+    gap: 25px;
+    border: $brdr;
+    margin-right: 5px;
+    background-color: $back_text;
+    div{
+        border-width: 0px;
+        margin-left: 50px;
+    } 
+    img{
+        border-width: 0px;
+        margin-right: 700px;
+    }    
+}
+div.middle_a{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 75px 200px 75px 200px;
+    grid-gap: 15px;
+    border-width: 0px;
+    background-color: $back_clr;
+    div{
+        p{
+            @include headline_check(2);
+            
+        }
+    }
+}
+div.middle{
+    display: grid;
+    grid-template-columns: 930px 300px;
+    grid-gap: 30px;
+    border-width: 0px;
+    background-color: $back_clr;
+}
+div.form{
+    border-width: 0px;
+    margin-top: 25px;
+    font-size: 12px;
+}
+button{
+    margin-top: 20px;
+}
+div.middle_b{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px 50px 250px;
+    @include gap_border();
+    background-color: $back_clr;
+}
+div.gallary{
+    grid-column: 1/4; 
+    border-width: 0px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 210px 210px 210px 210px;
+    background-color: $back_clr;
+    margin-left: 15px;
+}
+div.mini_boss{
+    img{
+        width: 175px;
+        height: 100px;
+        float: left;
+        position: relative;
+        
+    }
+    div{
+        border-width: 0px;
+        margin: 10px;
+        @include headline_check(3);
+    }
+}
+footer{
+    border: $brdr;
+    background-color: $back_text;
+}

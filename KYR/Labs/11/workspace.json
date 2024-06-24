@@ -1,0 +1,15 @@
+{
+	"liveSassCompile.settings.formats":[
+		{
+			"format":"expanded",
+			"extensionName": ".css",
+			"savePath":"css"
+		}
+	],
+	"folders": [
+		{
+			"path": "D:/BSTU/KYR"
+		}
+	],
+	"settings": {}
+}

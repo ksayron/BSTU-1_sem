@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 4</title>
+    <style>
+        #wrap{
+width: 100%; 
+height: 50px; 
+margin: 5px;
+z-index: 99; 
+position: relative; 
+
+}
+.navbar{
+height: 60px;
+padding: 0;
+margin: 5px;
+position: absolute; 
+}
+
+.navbar li {
+height: auto;
+width: 120px; 
+float: left;  
+text-align: center; 
+font: normal bold 13px/1em Arial, Verdana, Helvetica;  
+padding: 0px;
+margin: 5px;
+list-style: none;
+background-image: url(task4/facultet.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+background-size: 50px;
+}
+.it {
+background-image: url(task4/facultet.png);
+background-repeat: no-repeat;
+background-position: 0 0;
+background-size: 50px;
+}
+.it:hover {
+background-image: url(task4/facultet.png);
+background-repeat: no-repeat;
+background-position: 0 -50px;
+background-size: 50px;
+}
+.xtix:hover {
+background-image: url(task4/facultet.png);
+background-repeat: no-repeat;
+background-position: 0 -100px;
+background-size: 50px;
+}
+.pim:hover {
+background-image: url(task4/facultet.png);
+background-repeat: no-repeat;
+background-position: 0 -150px;
+background-size: 50px;
+}
+.navbar a{							
+padding: 18px 0;  
+border: 3px solid black  ;
+text-decoration: none; 
+color: black; 
+display: block;
+margin: 0px;
+}
+
+.navbar li ul{
+display: none;
+height: auto;									
+margin: 0; 
+padding: 0; 
+}
+
+.navbar li:hover ul{
+display: block;
+}
+
+.navbar li ul li{
+margin: 0;
+background-image: none;
+background-color: white;
+}
+.navbar li ul li a{
+border: 2px solid black;
+}
+
+.navbar li ul li a:hover{
+background-color: #a3a1a1;
+}
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <ul class="navbar">
+          <li class="bstu">
+            <a href="https://www.belstu.by" >БГТУ</a>
+          </li>
+          <li class="it">
+            <a href="https://it.belstu.by/" >ИТ</a>
+            <ul>
+              <li><a href="https://isit.belstu.by/">Кафедра ИСиТ</a></li>
+              <li><a href="https://belstu.by/fakultety/fit/ivd/">Кафедра ИиВД</a></li>
+              <li><a href="https://belstu.by/fakultety/fit/pi/">Кафедра ПИ</a></li>
+            </ul>
+          </li>
+          <li class="pim">
+            <a href="#">ПиМ</a>
+          </li>
+          <li class="xtix">
+            <a href="#">ХТиТ</a>
+          </li>
+        </ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿Сборка начата 23.09.2023 23:17:02.
+Уровень детализации журнала: Normal.     1>Проект "D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\ConsoleA.30789b71.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(16,76): error C2440: инициализация: невозможно преобразовать "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" в "std::basic_string<char16_t,std::char_traits<char16_t>,std::allocator<char16_t>>"
+       D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(16,34): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+     1>D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(22,13): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "std::u16string" (или приемлемое преобразование отсутствует)
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(475,39): message : может быть "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_streambuf<wchar_t,std::char_traits<wchar_t>> *)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(443,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(const void *)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(425,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long double)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(407,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(double)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(389,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(float)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(371,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned __int64)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(353,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(__int64)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(335,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned long)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(317,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(long)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(298,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned int)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(272,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(int)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(253,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(unsigned short)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(219,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(short)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(201,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(bool)"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(195,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(189,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ios<wchar_t,std::char_traits<wchar_t>> &))"
+       D:\Soft\Microsoft Visual Studio\VC\Tools\MSVC\14.33.31629\include\ostream(184,39): message : или       "std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::operator <<(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &(__cdecl *)(std::basic_ostream<wchar_t,std::char_traits<wchar_t>> &))"
+       D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(22,13): message : при попытке сопоставить список аргументов "(std::basic_ostream<wchar_t,std::char_traits<wchar_t>>, std::u16string)"
+     1>Сборка проекта "D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(16,76): error C2440: инициализация: невозможно преобразовать "std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>" в "std::basic_string<char16_t,std::char_traits<char16_t>,std::allocator<char16_t>>"
+         D:\BSTU\ОПИ\Лабораторные\Лаб 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(22,13): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "std::u16string" (или приемлемое преобразование отсутствует)
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:01.53

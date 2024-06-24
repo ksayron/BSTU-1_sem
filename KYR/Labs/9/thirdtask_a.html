@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>third task a</title>
+    <style>
+.grid {
+display:grid;
+grid-template-areas: 
+"x y y"
+"x y2 z2"
+"x3 x3 x3";
+grid-template-columns: 100px 500px 200px;
+grid-template-rows: 70px 300px 35px;
+grid-gap: 20px;
+
+}
+.grid div{
+ outline: black 2px solid;
+ text-align: center;
+ background-color: rgb(109, 165, 87);
+}
+.grid div.nav li{
+ list-style-type: none;
+ padding: 10px 0;
+}
+.grid div.head h4,.grid div.head p{
+ margin: 5px ;
+}
+.grid div.aside h4,.grid div.aside li{
+ margin: 5px ;
+}
+.grid div.aside ul{
+    font-size: 11px;
+    padding-left: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="nav" style="grid-area: x;">
+        <li><a href="https://en.wikipedia.org/wiki/CSS_grid_layout">CSS grid layout</a></li>
+        <li><a href="https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">Основные понятия Grid Layout</a></li>
+        <li><a href="https://tpverstak.ru/grid/">Шпаргалка по Grid CSS</a></li>
+        <li><a href="https://htmlbook.ru/html">Справочник HTML</a></li>
+        <li><a href="https://html5css.ru/tags/default.php">Справочник HTML5</a></li>
+        <li><a href="https://htmlbook.ru/css">Справочник CSS</a></li>
+        </div>
+        <div class="head" style="grid-column: 2/4; grid-area: y;">
+            <h4>CSS grid layout</h4>
+        <p style="font-size: 12px; grid-area: y2;">In Cascading Style Sheets, CSS grid layout or CSS grid creates complex responsive web design grid layouts more 
+            easily and consistently across browsers. CSS grid is currently not an 
+            official standard although it has been adopted by the recent versions of all current major browsers.</p>
+        </div>
+        <div>
+            <p>The CSS Grid Layout is a revolutionary tool in web design, providing a two-dimensional layout system for developers.
+                It simplifies the creation of complex layouts and ensures consistency across different browsers.
+                A grid layout consists of a parent grid container and its child items.
+                An HTML element becomes a grid container when its display property is set to ‘grid’.
+                The grid is divided into columns and rows, which are defined by grid lines.
+                The space between each column or row, known as a gap, can be controlled for precise design.
+                Grid items are strategically placed onto the grid by referring to these lines.
+                The grid-template-columns and grid-template-rows properties allow developers to define the number and size of the rows and columns.
+                The grid-column and grid-row properties determine the placement of an item on the grid.
+                The CSS Grid Layout, with its flexibility and control, is transforming the way we design web layouts.</p>
+        </div>
+        <div class="aside" style="grid-area: z2;"><h4>Here are some key features of CSS Grid Layout:</h4>
+
+        <ul>
+            <li>Grid Elements: A grid layout consists of a parent element, with one or more child elements.</li>
+            <li>Display Property: An HTML element becomes a grid container when its display property is set to grid or inline-grid.</li>
+            <li>Grid Columns and Rows: The vertical lines of grid items are called columns. The horizontal lines of grid items are called rows.</li>
+            <li>Grid Gaps: The spaces between each column/row are called gaps. You can adjust the gap size by using one of the following properties: column-gap, row-gap, gap.</li>
+        </ul>   
+        </div>
+        <div style="grid-column: 1/4; grid-area: x3;"><p style="font-size: 12px;">Кучерук Н.П. 1 курс ФИТ 6 группа</p></div>
+    </div>
+</body>
+</html>

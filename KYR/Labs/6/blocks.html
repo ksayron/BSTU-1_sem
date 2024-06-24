@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blocks</title>
+    <style>
+        div.box{
+            display: flex;
+            flex-direction: row;
+            border-width: 0px;
+            width: 1200px;
+            box-shadow: inset 0 0 10px rgba(0,0,0, .75);
+            height: 175px;
+            justify-content: space-evenly;
+            perspective: 100px;
+        }
+        div{    
+            width: 150px;
+            height: 150px;
+            margin: 15px;
+            border: solid black 2px;
+        }
+        #a{
+            background-image: linear-gradient(to bottom,blue,red);
+        }
+        #b{
+            background-image: repeating-linear-gradient(45deg, blue 20px, red 30px, blue 40px)
+        }
+        #c{
+            background-image: radial-gradient(circle ,yellow, green);
+        }
+        #d{
+            background-image: radial-gradient(circle ,yellow, green,transparent), linear-gradient(to bottom, blue,purple); 
+
+        }
+        #e{            
+            background: repeating-radial-gradient(circle at 50%, green, green 10px, yellow 10px, yellow 20px); 
+        }
+        #f{
+            background-image: linear-gradient(to right,yellow,green,transparent), linear-gradient(to bottom,black 20%,white 70%,blue 80%,purple 90%);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+        <div id="e"></div>
+        <div id="f"></div>
+    </div>
+</body>
+</html>

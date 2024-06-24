@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <style>
+        .grid {
+ display:grid;
+ grid-template-areas: 
+ "x y w"
+ "x2  y2 w2";
+ grid-template-columns: 
+ 20px 20px 20px;
+ grid-template-rows: 
+ 20px 20px 20px;
+ grid-gap: 5px;
+ }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div style="grid-area: x;">1</div>
+        <div style="grid-area: y;">2</div>
+        <div style="grid-area: w2;">3</div>
+        <div style="grid-area: x2;">4</div>
+        <div style="grid-area: y2;">5</div>
+        </div>
+</body>
+</html>

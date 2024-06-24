@@ -1,0 +1,23 @@
+storage{
+    display: table;
+    border-collapse: collapse;
+    margin: 10px;
+}
+head,goods{
+    display: table-row;
+}
+hname,hprice{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: brown;
+    text-align: center;
+}
+name,price{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 5px;
+}
+price{
+    color: rgb(212, 32, 32);
+}

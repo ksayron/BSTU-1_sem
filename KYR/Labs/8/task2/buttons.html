@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cool buttons!!</title>
+    <style>
+
+        button{
+            background-color: white;
+            border: 0px;
+            margin: 15px;
+            width: 100px;
+            height: 60px;
+        }
+        #fr:hover{
+            background-color: black;
+            color: antiquewhite;
+        }
+        #sc:hover{
+            box-shadow: 0px 0px 0 2px rgb(248, 248, 83), 0 6px 20px 0 rgba(0,0,0,0.19);
+            border: red 4px solid;
+        }
+        #th:hover{
+            border: green 4px solid;
+            border-left-width:0px ;
+            border-right-width:0px ;
+        }
+        #fo:hover{
+            border: blue 4px solid;
+            border-top-width:0px ;
+            border-bottom-width:0px ;
+        }
+        #fi:hover{
+            background: radial-gradient(circle,yellow,magenta,cyan);
+        }
+        @keyframes headline {
+            0%{ opacity: 0;}
+            50%{ opacity: 0.8;}
+            100%{ opacity: 0;}
+        }
+        h2{
+            animation:headline 4s linear infinite;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>cool buttons!!</h2>
+    <button id="fr"> black</button>
+    <button id="sc">red</button>
+    <button id="th">green<button>
+    <button id="fo">blue</button>
+    <button id="fi">wow</button>
+
+</body>
+</html>

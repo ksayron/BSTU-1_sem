@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>folding</title>
+    <style>
+        .container{
+            display: flex;
+            flex-flow: wrap row;
+            justify-content: center;
+            align-items: center;
+            width: 1500px;
+           margin: auto;
+           perspective: 100px;
+
+            
+        }
+        
+        img{
+            width: 620px;
+            height: 50S0px;
+            margin: 20px;
+        }
+        #a:hover{
+            scale: 0.5;
+            perspective: 123px;
+
+        }
+        #a{
+            transform: perspective(700px) rotatex(30deg) ;
+
+        }
+
+        #b{
+            transform: perspective(700px) rotateY(-30deg) ;  
+
+        }
+        #b:hover{
+            rotate: 45deg;
+
+        }
+
+        #c{
+            transform: perspective(700px) rotateY(30deg) ;  
+        }
+        #c:hover{
+            translate: 50px;
+        }
+        #d{
+            transform: perspective(700px) rotatex(30deg) ;
+
+        }
+        #d:hover{
+            rotate: -20deg;
+        }
+        h2{
+            animation:headline 4s linear infinite;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>photos of unusual forms!!!</h2>
+    <div class="container">
+    <div class="content"><img id="a" src="pics/pmc.jpg" alt=""></div>
+    <div class="content"><img id="b" src="pics/radiohead.jpg" alt=""></div>
+    <div class="content"><img id="c" src="pics/unhappy.jpg" alt=""></div>
+    <div class="content"><img id="d" src="pics/big boss.jpg" alt=""></div>
+    </div>
+</body>
+</html>

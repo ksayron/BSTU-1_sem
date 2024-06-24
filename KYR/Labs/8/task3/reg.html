@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reg</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+<body>
+<form>
+<legend><h1>Регистрация постоянного клиента</h1></legend>
+<div>
+    
+<div>   
+    <label for="surname">Фамилия студента</label>
+    <input type="text" name="surname" id="surname"  required>
+</div>
+    
+<label for="name">Имя студента</label>
+<input type="text" name="name" id="name"  required>
+</div>
+
+<div>
+<label for="otch">Отчество студента</label>
+<input type="text" name="otch" id="otch"  required>
+</div>
+
+
+<div>
+<label for="age">Ваш возраст</label>
+<input type="number" name="age" id="age" >
+</div>
+
+
+    <div>
+        <label id="radiobox">Ваш пол          </label>
+        <input type="radio" name="gender" id="male">
+        <label class="radiobox">Мужской</label>
+    <input type="radio" name="gender" id="fem">
+    <label class="radiobox">Женский</label>
+    </div>
+</div>
+<div>
+    <label for="email">Адрес почты</label>
+    <input type="email" name="email" id="email" >
+</div>
+<div>
+<label for="country">Страна проживания</label>
+<input type="text" name="country" id="country"  required>
+</div>
+
+<div>
+    <label for="acknowledge">Откуда вы узнали</label>
+    <select name="acknowledge" id="acknowledge">
+        <option value="none">Выберите вариант</option>
+        <option value="vk">VK</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>
+    </select>
+</div> 
+<div>
+    <label>Дата рождения</label>
+    <input type="date" name="date" id="date">
+</div>
+
+
+<button type="submit">Регистрация</button>
+<button type="reset">Отмена</button>
+</form>
+</body>    
+</html>

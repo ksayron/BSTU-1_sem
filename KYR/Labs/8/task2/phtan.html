@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even more Flying photos!!!</title>
+    <style>
+        #div {
+  position: relative;
+  right: 0;
+  left: 0;
+  height: 510px;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+@keyframes headline {
+  0%{ opacity: 0;}
+  50%{ opacity: 0.8;}
+  100%{ opacity: 0;}
+}
+
+@keyframes FadeOutIn {
+  0% { opacity:0; }
+  45% { opacity:0; }
+  55% { opacity:1; }
+  100% { opacity:1; }
+}
+
+@keyframes FadeOutIn1 {
+  0% { opacity:1; }
+  10% { opacity:0; }
+  90% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@keyframes FadeOutIn2 {
+  0% { opacity:0; }
+  10% { opacity:1; }
+  30% { opacity:0; }
+  100% { opacity:0; }
+}
+@keyframes FadeOutIn3 {
+  10% { opacity:0; }
+  30% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:0; }
+}
+@keyframes FadeOutIn4 {
+  30% { opacity:0; }
+  50% { opacity:1; }
+  70% { opacity:0; }
+  100% { opacity:0; }
+}
+@keyframes FadeOutIn5 {
+  50% { opacity:0; }
+  70% { opacity:1; }
+  90% { opacity:0; }
+  100% { opacity:0; }
+}
+img.top {
+  animation-name: FadeOutIn2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  translate: -1000px;
+
+}
+img{
+    height: 900px;
+    width: 1000px;
+    border: 3px solid magenta;
+}
+.bottom{
+    opacity: 0;
+    animation-name: FadeOutIn1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.tops{
+    opacity: 0;
+
+    animation-name: FadeOutIn5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    translate:0px -900px;
+}
+.topf{
+    opacity: 0;
+    animation-name: FadeOutIn4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    translate: -3000px;
+}
+.middle{
+    opacity: 0;
+    animation-iteration-count: infinite;
+    animation-name: FadeOutIn3;
+    animation-duration: 5s;
+    translate: -2000px;
+    border: 2px solid magenta;
+}
+h2{
+  animation:headline 4s linear infinite;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div id="div">
+      <h2>Flying photos!!!</h2>
+        <img class="bottom" src="pics/pmc.jpg" />
+        <img class="top" src="pics/big boss.jpg" />
+        <img class="middle" src="pics/unhappy.jpg" />
+        <img class="topf" src="pics/radiohead.jpg " />
+        <img class="tops" src="pics/nude.jpg " />
+      </div>
+</body>
+</html>

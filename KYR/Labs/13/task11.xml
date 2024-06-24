@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="catalog1.xsl"?>
+<storage>
+
+
+<goods>
+<name>USB флешка 32GB</name>
+<price>63.99 BYN</price>
+</goods>
+
+<goods>
+<name>Наушники Marshall Major III</name>
+<price>237.99 BYN</price>
+</goods>
+
+<goods>
+<name>Мышь компьютерная Defender OverLoad GM-890</name>
+<price>34.99 BYN</price>
+</goods>
+
+<goods>
+<name>Усилитель ЦАП Chord Mojo 2</name>
+<price>2656 BYN</price>
+</goods>
+
+<goods>
+<name>Клавиатура A4Tech Bloody B930</name>
+<price>189.99 BYN</price>
+</goods>
+
+</storage>

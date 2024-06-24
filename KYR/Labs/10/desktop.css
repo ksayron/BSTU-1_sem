@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    width: 1260px;
+    gap: 20px 30px;
+    padding-left: 50px;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.ham{
+    margin-top: 35px;
+    display: flex;
+    width: 1260px;
+    gap: 20px 30px;
+    padding-left: 50px;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.foto{
+    margin-top: 35px;
+    display: flex;
+    width: 1260px;
+    gap: 40px 30px;
+    padding-left: 50px;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+figcaption{
+    border: 3px solid black;
+    text-align: center;
+    background-color: rgb(225, 198, 225);
+    width: 500px;
+    color: green;
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+section{
+    outline: 2px solid black;
+}
+header{
+    width: 1200px;
+    flex-grow: 4;
+    text-align: center;
+    border: 2px solid black;
+}
+iframe{
+    padding: 0 15px;
+    width: 280px;
+    height: 170px;
+}
+.small{
+    width: 300px;
+}
+.big{
+    width: 600px;
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="catalog2.xsl"?>
+<storage>
+
+
+<goods>
+<name>Альшевская Алина</name>
+<price>9</price>
+</goods>
+
+<goods>
+<name>Борисов Антон</name>
+<price>2</price>
+</goods>
+
+<goods>
+<name>Гормаза Максим</name>
+<price>9</price>
+</goods>
+
+<goods>
+<name>Грук Егор</name>
+<price>3</price>
+</goods>
+
+<goods>
+<name>Дзибук Павел</name>
+<price>7</price>
+</goods>
+
+<goods>
+<name>Жучкевич Екатерина</name>
+<price>7</price>
+</goods>
+
+<goods>
+<name>Казакевич Павел</name>
+<price>9</price>
+</goods>
+
+<goods>
+<name>Кравченко Сергей</name>
+<price>9</price>
+</goods>
+
+<goods>
+<name>Кучерук Николай</name>
+<price>9</price>
+</goods>
+
+<goods>
+<name>Литвинчук Дарья</name>
+<price>7</price>
+</goods>
+
+<goods>
+<name>Лускина Ольга</name>
+<price>5</price>
+</goods>
+
+<goods>
+<name>Романов Игорь</name>
+<price>8</price>
+</goods>
+
+<goods>
+<name>Терещенко Павел</name>
+<price>7</price>
+</goods>
+
+<goods>
+<name>Ус Егор</name>
+<price>8</price>
+</goods>
+
+<goods>
+<name>Херунцева Дарья</name>
+<price>8</price>
+</goods>
+
+</storage>
